@@ -2,6 +2,7 @@ baseURL = "https://example.org/"
 locale = "en-us"
 title = "Acme Corporation"
 theme = "Eclectic"
+enableEmoji = true
 
 [caches]
   [caches.images]
@@ -54,3 +55,9 @@ about_us = "Acme Corporation is the world's leading manufacturer of digital shap
   [[params.footer]]
   title = "Contact Us"
   contact = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+lineNos = true
