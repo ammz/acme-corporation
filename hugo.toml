@@ -1,7 +1,7 @@
 baseURL = "https://example.org/"
 locale = "en-us"
 title = "Acme Corporation"
-theme = "Universal"
+theme = "Eclectic"
 
 [caches]
   [caches.images]
