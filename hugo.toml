@@ -3,19 +3,23 @@ locale = "en-us"
 title = "Acme Corporation"
 theme = "Eclectic"
 
+[caches]
+  [caches.images]
+  dir = ':cacheDir/images'
+
 [menu]
 
- [[menu.main]]
- identifier = "about"
- name = "About"
- url = "/about"
- weight = 100
-
- [[menu.main]]
- identifier = "contact"
- name = "Contact"
- url = "/contact"
- weight = 200
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 100
+ 
+  [[menu.main]]
+  identifier = "contact"
+  name = "Contact"
+  url = "/contact"
+  weight = 200
 
 [params]
 color = "#4f46e5"
