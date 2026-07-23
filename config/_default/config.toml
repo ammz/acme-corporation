@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://ammz.github.io/acme-corporation/"
 locale = "en-us"
 title = "Acme Corporation"
 theme = "Eclectic"
