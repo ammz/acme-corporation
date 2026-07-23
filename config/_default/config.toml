@@ -1,5 +1,9 @@
-baseURL = "https://ammz.github.io/acme-corporation/"
+baseURL = "https://ammz.github.io"
 locale = "en-us"
 title = "Acme Corporation"
 theme = "Eclectic"
 enableEmoji = true
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
