@@ -1,0 +1,5 @@
+baseURL = "http://example.org/"
+locale = "en-us"
+title = "Acme Corporation"
+theme = "Eclectic"
+enableEmoji = true
